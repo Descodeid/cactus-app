@@ -54,8 +54,8 @@ class DetailPage extends StatelessWidget {
                             'Description',
                             textScaleFactor: 1.3,
                             style: TextStyle(
-                                fontWeight: FontWeight.bold,
-                                fontFamily: 'Intel'),
+                                fontWeight: FontWeight.w600,
+                                fontFamily: 'Inter'),
                           )),
                       Positioned(
                           right: 20,
@@ -64,7 +64,9 @@ class DetailPage extends StatelessWidget {
                           child: Text(
                             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
                             overflow: TextOverflow.clip,
-                            style: TextStyle(fontFamily: 'Intel'),
+                            style: TextStyle(
+                                fontFamily: 'Inter',
+                                fontWeight: FontWeight.w300),
                             textScaleFactor: 1.2,
                           )),
                       Positioned(
@@ -97,8 +99,8 @@ class DetailPage extends StatelessWidget {
                             'Price',
                             textScaleFactor: 1.3,
                             style: TextStyle(
-                                fontWeight: FontWeight.bold,
-                                fontFamily: 'Intel'),
+                                fontWeight: FontWeight.w600,
+                                fontFamily: 'Inter'),
                           )),
                       Positioned(
                           left: 80,
@@ -108,7 +110,7 @@ class DetailPage extends StatelessWidget {
                             textScaleFactor: 2.3,
                             style: TextStyle(
                                 fontWeight: FontWeight.bold,
-                                fontFamily: 'Intel'),
+                                fontFamily: 'Inter'),
                           )),
                       Positioned(
                           right: 80,
@@ -130,7 +132,7 @@ class DetailPage extends StatelessWidget {
                                     color: Colors.white,
                                     fontWeight: FontWeight.bold,
                                     letterSpacing: 1,
-                                    fontFamily: 'Intel'),
+                                    fontFamily: 'Inter'),
                               ),
                             ),
                           )),

@@ -7,16 +7,19 @@ class MainImage extends StatelessWidget {
       child: Column(
         children: [
           Text(
-            'CakTus',
+            'Cactus',
             textScaleFactor: 3,
             style: TextStyle(
                 color: Colors.black,
-                fontWeight: FontWeight.bold,
-                fontFamily: 'Intel'),
+                fontWeight: FontWeight.w700,
+                fontFamily: 'Inter'),
           ),
           Text(
             'Plan & Decoration',
-            style: TextStyle(color: Colors.black, fontFamily: 'Intel'),
+            style: TextStyle(
+                color: Colors.black,
+                fontFamily: 'Inter',
+                fontWeight: FontWeight.w500),
           ),
           SizedBox(
             height: 50,

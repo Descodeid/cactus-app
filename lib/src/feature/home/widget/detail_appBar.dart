@@ -16,8 +16,8 @@ class _DetailAppBarState extends State<DetailAppBar> {
         'Plantpedia',
         style: TextStyle(
             color: widget.color,
-            fontWeight: FontWeight.bold,
-            fontFamily: 'Intel'),
+            fontWeight: FontWeight.w600,
+            fontFamily: 'Inter'),
         textScaleFactor: 2.0,
       ),
     );

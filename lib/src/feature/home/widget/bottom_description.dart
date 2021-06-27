@@ -45,8 +45,9 @@ class BottomDescription extends StatelessWidget {
                 'Simple Description',
                 style: TextStyle(
                     color: Colors.white,
-                    fontWeight: FontWeight.bold,
-                    fontSize: 18),
+                    fontWeight: FontWeight.w600,
+                    fontSize: 18,
+                    fontFamily: 'Inter'),
               )),
           Positioned(
               top: MediaQuery.of(context).size.height / 10,
@@ -55,7 +56,11 @@ class BottomDescription extends StatelessWidget {
               child: Text(
                 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
                 overflow: TextOverflow.clip,
-                style: TextStyle(color: Colors.white, fontSize: 15),
+                style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 15,
+                    fontFamily: 'Inter',
+                    fontWeight: FontWeight.w300),
               )),
           Positioned(
             bottom: 0,
@@ -75,7 +80,7 @@ class BottomDescription extends StatelessWidget {
                   child: Text(
                     'More Detail',
                     style: TextStyle(
-                        fontFamily: 'Intel', fontWeight: FontWeight.bold),
+                        fontFamily: 'Inter', fontWeight: FontWeight.w600),
                   ),
                 )),
           )
